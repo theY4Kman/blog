@@ -1,0 +1,44 @@
+baseURL: "https://y4k.dev"
+languageCode: en-us
+title: &title Thoughts for Your Thoughts
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+# TODO
+#googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: *title
+  description: "Miscellaneous musings"
+  DateFormat: "2021/02/06"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false  # TODO
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/they4kan"
+    - name: stackoverflow
+      url: "https://stackoverflow.com/users/148585/they4kman/"
